@@ -159,10 +159,10 @@ end
 return {
   description = "Help plugin. Get info from other plugins.  ",
   usage = {
-    "!help: Show list of plugins.",
-    "!help all: Show all commands for every plugin.",
-    "!help [plugin name]: Commands for that plugin.",
-    "!help [number]: Commands for that plugin. Type !help to get the plugin number."
+    "!help: نمایش لیست پلاگین ها.",
+    "!help all: نمایش کل راهنمایی پلاگین ها",
+    "!help [plugin name]: دستورات برای نام پلاگین",
+    "!help [number]: دستورات برای شماره پلاگین."
   },
   patterns = {
     "^!help$",
